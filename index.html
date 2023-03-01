@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="arquivos/styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Jogo da Memoria</title>
+
+</head>
+
+<body>
+
+    <h1>JOGO DA MEMORIA</h1>
+    <div id="gameBoard" id="gameContainer">
+
+    </div>
+
+    <div id="gameOver">
+        <div>
+            Parabéns, você completou o jogo!
+        </div>
+        <button id="restart" onclick="restart()">Jogue novamente</button>
+    </div>
+
+    <audio id="card-sound">
+        <source src="arquivos/musica/Blop-Mark_DiAngelo-79054334 (1).mp3" type="audio/mpeg">
+      </audio>
+
+      <button id="muteButton" class="material-icons">
+        <img src="./arquivos/imagens/volume_off_FILL0_wght400_GRAD0_opsz48.svg">
+      </button>      
+
+    <script src="arquivos/scripts/game.js"></script>
+    <script src="arquivos/scripts/script.js"></script>
+
+</body>
+
+
+</html>
